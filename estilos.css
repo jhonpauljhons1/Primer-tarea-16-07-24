@@ -14,8 +14,117 @@ h2{
     text-decoration-line: underline;
 }
 h3{
+    padding: 10px 5px 5px 10px;
+    border-style: dashed;
     text-align: center;
-    font-size: large;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    color:rgb(0, 0, 0);
 }
+h4{
+    padding: 20px 5px 5px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+    font-style: italic;
+    text-decoration-style: solid;
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    color: crimson;
+}
+h6{
+    padding: 8px 12px;
+    border: black 5px dotted;
+    text-align: start;
+    color: darkred;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    border: 1px solid red;
+    padding: 80px 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(100, 237, 230);
+    display: block;
+    margin: 10px;
+}
+head{
+    width: 100%;
+}
+.nombre{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding:20px 10px 20px;
+    background-color: burlywood;
+    display: inline;
+    border: 1px dotted whitesmoke;
+}
+.email{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 10px 5px 5px 10px;
+    background-color: coral;
+    box-shadow: inset;
+    display: inline-table;
+    box-shadow: blanchedalmond;
+    border: 1px solid;
+    position: relative;
+}
+.perfíl{
+    width: fit-content;
+    padding: 30px 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: grid;
+    background-color: darkgoldenrod;
+    flex-flow: initial;
+}
+.lic{
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    display: list-item;
+    background-color: darkolivegreen;
+    position: relative;
+
+}
+.ocupacion {
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    margin: 5px 5px;
+    background-color: blanchedalmond;
+}
+.chef{
+    display: inline-block;
+  width: max-content;
+  height: 200px;
+  margin: auto;
+  text-align: right;
+  background-color: rgb(251, 255, 0);
+  margin: 10px;
+  color: black;
+  border: 2px solid black;
+}
+.p{
+    width: auto;
+    display: grid;
+    height: 300px;
+    margin: auto;
+    background-color: azure;
+}
+
+
